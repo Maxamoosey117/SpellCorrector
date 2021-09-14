@@ -56,7 +56,7 @@ public class SpellCorrector implements ISpellCorrector {
 		TreeMap<String, Integer> finalSpellings = sortOutMaxs(possibleSpellings, max);
 
 		/*
-		 * Edit distance two required check This will exponentially expand then
+		 * Edit distance two required check This will exponentially expand the
 		 * possibleSpellings Map
 		 */
 		if (possibleSpellings.firstEntry() == null) {
